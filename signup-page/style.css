@@ -1,0 +1,254 @@
+body{
+margin: 0px;
+padding: 0px;	
+background: #F0F2F5;
+}
+
+/* style the logo area */
+
+.logo-area img{
+	width: 240px;
+	display: block;
+	margin: auto;
+	margin-top: 20px;
+	margin-bottom: 10px;
+}
+
+/* syle the center-area */
+
+.center-area{
+	width: 400px;
+	background: #FFF;
+	margin:  20px auto;
+	padding: 25px;
+}
+
+/* style the width-area */
+
+.width-area{
+	width: 400px;
+	margin: auto;
+}
+
+/* style the new-header */
+
+.new-header h2{
+	margin: 0px;
+	text-align: center;
+	font-size: 29px;
+}
+.new-header p{
+	margin: 0px;
+	text-align: center;
+	font-size: 18px;
+	color: #606770;
+}
+
+/* style the under-lie */
+
+.under-lie{
+	width: 400px;
+	border-bottom: 1px solid #dddfe2;
+	font-size: 1px;
+	height: 10px;
+	margin-bottom: 15px;
+}
+
+/* style tthe name-area */
+
+.name-area{
+	width: 100%;
+	
+}
+.name-area input{
+	width: 194px;
+	float: left;
+}
+.name-area:after{
+	content: '';
+	display: block;
+	clear: both;
+}
+.fastname{
+	margin-right: 12px;
+}
+input[type=text]{
+	border: 1px solid #ccd0d5;
+	padding: 12px 20px;
+    box-sizing: border-box;
+	border-radius: 4px;
+    font-size: 16px;
+    outline: none;
+}
+input[type=text]:focus{
+    border: 1px solid #ccd0d5;
+}
+.address-ara input{
+	width: 400px;
+	margin-top: 11px;
+}
+
+/* style the dateofbirth */
+
+p{
+	font-size: 13px;
+	color: #606770;
+}
+select{
+	width: 130px;
+	background-position: right 5px center;
+	height: 36px;
+	font-size: 15px;
+	background: #fff;
+	padding: 0 8px;
+	border: 1px solid #ccd0d5;
+	border-radius: 4px;
+}
+
+/* style the sexx */
+
+.sexx{
+	width: 130px;
+	height: 36px;
+	background: #fff;
+	border: 1px solid #ccd0d5;
+	box-sizing: border-box;
+	display: inline-flex;
+	flex: 1 0 auto;
+}
+.sexx label{
+	margin-top: 7px;
+	margin-left: 8px;
+}
+.sexx input{
+	margin-left: 50px;
+}
+
+/* style tthe write-area */
+
+.write-area a{
+	text-decoration: none;
+	color: #385898;
+}
+.write-area a:hover{
+	text-decoration: underline;
+}
+
+/* style the signup */
+
+.signup{
+	width: 200px;
+	margin: auto;
+}
+.signup a{
+	color: #fff;
+	background: #00a400;
+	display: block;
+	text-align: center;
+	padding: 7px;
+	margin: 5px 0px 10px 0px;
+	text-decoration: none;
+	font-size: 21px;
+	border-radius: 4px;
+}
+.signup a:hover{
+	background: #119F16;
+}
+.signup-areea{
+	width: 65%;
+	margin: 10px auto;
+	
+}
+
+
+/* style the an-account */
+
+.an-account a{
+	text-decoration: none;
+	font-size: 19px;
+	text-decoration: none;
+	text-align: center;
+	display: block;
+	color: #1877f2;
+}
+
+/* style the back-ground */
+
+.back-ground{
+	background: #FFFFFF;
+}
+
+/* style the footer-area */
+
+.footer-area{
+	width: 990px;
+	margin: auto;
+}
+.footer-area ul{
+	list-style: none;
+	margin-top: 70px;
+}
+.footer-area ul li{
+	display: inline-block;
+	padding-top: 25px;
+}
+.footer-area ul li a{
+	text-decoration: none;
+	margin: 3px;
+	font-size: 13px;
+	color: #385898;;
+}
+.footer-area ul li a:hover{
+	text-decoration: underline;
+}
+.footer-area button{
+	width: 30px;
+	height: 25px;
+	font-weight: bold;
+}
+
+/* style the contntCurve */
+
+.contentCurve{
+	width: 950px;
+	margin: auto;
+	border-bottom: 1px solid #dddfe2;
+	font-size: 1px;
+	height: 2px;
+	margin-bottom: 3px;
+}
+
+/* style the footer2-area */
+
+.footer2-area{
+	width: 990px;
+	margin: auto;
+}
+.footer2-area ul{
+	list-style: none;
+	padding-bottom: 2px;
+}
+.footer2-area ul li{
+	display: inline-block;
+}
+.footer2-area ul li a{
+	text-decoration: none;
+	margin: 6px;
+	font-size: 13px;
+	color: #385898;;
+	line-height: 1.6;
+}
+.footer2-area ul li a:hover{
+	text-decoration: underline;
+}
+.footer2-area button{
+	width: 30px;
+	height: 25px;
+	font-weight: bold;
+}
+.footer2-area p{
+	font-size: 13px;
+	margin-left: 43px;
+	color: #8a8d91;
+	padding-bottom: 18px;
+}

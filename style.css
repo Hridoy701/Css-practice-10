@@ -1,0 +1,291 @@
+body{
+	margin: 0px;
+	padding: 0px;
+	font-family: 'Roboto', sans-serif;
+	background: #E9EBEE;
+}
+.background-area{
+	background: #44609D;
+	padding-top: 13px;
+	padding-bottom: 12px;
+}
+.header-area{
+	width: 85%;
+	margin: auto;
+}
+.loogo-signup{
+	width: 60%;
+	float: left;
+}
+.join-login{
+	float: right;
+}
+.header-area:after{
+	content: '';
+	display: block;
+	clear: both;
+}
+.logo-icon{
+	float: left;
+}
+.logo-icon img{
+	width: 175px;;
+}
+.signup{
+	float: left;
+	margin-left: 10px;
+}
+.loogo-signup:after{
+	content: '';
+	display: block;
+	clear: both;
+}
+.signup{
+	margin-top:18px;
+	background-color: #42b72a;
+	border-width: 2px;
+	border-color: #42b72a;
+	padding:6px 9px;
+	border-radius: 2px;
+}
+.signup:hover{
+	background-color: #00A400;
+}
+.signup a{
+	color: #fff;
+	font-size: 14px;
+	text-decoration: none;
+	font-family: 'Kanit', sans-serif;
+}
+.join-login{
+	margin-top: 16px;
+}
+
+.join-login a{
+	text-decoration: none;
+	color: #fff;
+	font-size: 12px;
+	margin: 2px;
+}
+.join-login li{
+	list-style: none;
+}
+.join-login a i{
+	margin: 5px;
+}
+
+.beeperNub{
+	background-image: url(image/3con.png);
+	width: 30px;
+	height: 30px;
+	background-size: cover;
+	position: absolute;
+	top: 51px;
+	right: 85px;
+	
+}
+.popup{
+	display: none;
+}
+.join-login li:hover .popup{
+	 display: block;
+}
+.login-page{
+	width: 265px;
+	background: #fff;
+	position: fixed;
+	top: 70px;
+	right: 75px;
+	border-radius: 3px;
+	box-shadow: 0 3px 8px rgba(0, 0, 0, .3);
+}
+.width{
+	width: 90%;
+	margin: auto;
+	padding: 10px;
+}
+.login-page label,input{
+	width: 100%;
+}
+input[type=text],[type=password]{
+	border: 1px solid #ccd0d5;
+    box-sizing: border-box;
+    outline: none;
+}
+input[type=text],[type=password]:focus{
+    border: 1px solid #ccd0d5;
+}
+.login-page label{
+	font-size: 12px;
+}
+.login-page input{
+	padding: 6px;
+	border-width: .1px;
+}
+.forget a{
+	color: #385898;
+	display: block;
+	text-align: right;
+	font-size: 12px;
+	text-decoration: none;
+}
+.forget a:hover{
+	text-decoration: underline;
+}
+.login a{
+	color: #fff;
+	background: #4267b2;
+	display: block;
+	text-align: center;
+	padding: 8px;
+	margin: 12px 0px 10px 0px;
+	text-decoration: none;
+	font-size: 13px;
+}
+.login a:hover{
+	background: #365899;
+}
+.signup-areea{
+	width: 65%;
+	margin: 10px auto;
+	
+}
+.sign{
+	background: #F5F6F7;
+	height:90px;
+	padding: 6px;
+}
+.signup-areea p{
+	font-size: 12px;
+	color: #90949c;
+}
+.signup-areea a{
+	width: 70px;
+	margin: auto;
+	color: #fff;
+	font-size: 12px;
+	display: block;
+	text-align: center;
+	padding: 8px;
+	background-color: #42b72a;
+	border-color: #42b72a;
+	border-radius: 3px;
+	text-decoration: none;
+}
+.signup-areea a:hover{
+	background-color: #36A420;
+}
+
+
+/*middle-area*/
+
+
+.middle-area{
+	width: 85%;
+	margin: auto;
+}
+.content-area h2{
+	margin-top: 35px;
+	color:00030E;
+	line-height: 13px;
+}
+.content-area p{
+	color: #373A3C;
+	font-size: 14px;
+}
+.image-area{
+	width: 100%;
+}
+.fast-img{
+	width: 49%;
+	float:  left;
+	background: #FFFFFF;
+	margin-top: 45px;
+	border-radius: 5px;
+}
+.second-img{
+	width: 49%;
+	float: right;
+	background: #FFFFFF;
+	margin-top: 45px;
+	border-radius: 5px;
+}
+.image-area:after{
+	content: '';
+	display: block;
+	clear: both;
+}
+.fast-img img{
+	display: block;
+	margin: 24px auto;
+}
+.second-img img{
+	display: block;
+	margin: 24px auto;
+}
+.fast-content{
+	width: 85%;
+	margin: auto;
+	display: block;
+}
+.fast-content h3{
+	text-align: center;
+}
+.fast-content p{
+	color: #90949c;
+	font-size: 14px;
+	text-align: center;
+	margin-bottom: 90px;
+}
+.fast-content button{
+	text-align: center;
+	display: block;
+	margin: 27px auto;
+	background-color: rgb(245, 246, 247);
+	border-color: rgb(218, 221, 225);
+	border-width: .1px;
+	padding: 5px 8px;
+	border-radius: 2px;
+}
+.fast-content a{
+	color: rgb(68, 73, 80);
+	text-decoration: none;
+	font-size: 11px;
+	font-weight: bold;
+}
+.fast-content button:hover{
+	background: #EBEDF0;
+}
+.second-content{
+	width: 85%;
+	margin: auto;
+	display: block;
+}
+.second-content h3{
+	text-align: center;
+}
+.second-content p{
+	color: #90949c;
+	font-size: 14px;
+	text-align: center;
+	margin-bottom: 90px;
+}
+.second-content button{
+	text-align: center;
+	display: block;
+	margin: 27px auto;
+	background-color: rgb(245, 246, 247);
+	border-color: rgb(218, 221, 225);
+	border-width: .1px;
+	padding: 5px 8px;
+	border-radius: 2px;
+}
+.second-content a{
+	color: rgb(68, 73, 80);
+	text-decoration: none;
+	font-size: 11px;
+	font-weight: bold;
+}
+.second-content button:hover{
+	background: #EBEDF0;
+} 

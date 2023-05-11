@@ -1,0 +1,240 @@
+body{
+margin: 0px;
+padding: 0px;	
+background: #F0F2F5;
+}
+
+/* style the logo area */
+
+.logo-area img{
+	width: 200px;
+	display: block;
+	margin: auto;
+	margin-top: 50px;
+	margin-bottom: 10px;
+}
+
+/* style the input container */
+
+.input-container{
+	display: flex;
+	width: 53%;
+	margin: auto;
+}
+.input-field{
+  border: 1px solid dodgerblue;
+}
+input[type=text],[type=password]{
+	border: 1px solid #ccd0d5;
+    box-sizing: border-box;
+    outline: none;
+}
+input[type=text],[type=password]:focus{
+    border: 1px solid #ccd0d5;
+}
+/* style the fa fa-info-circle */
+
+.icons{
+	margin: 0px;
+	padding: 0px;
+	width: 14px;
+	height: 14px;
+	margin-top: 0px;
+    color: white;
+	background: #166FE5;
+	min-width: 40px;
+	min-height: 40px;
+	text-align: center;
+	border-radius: 3px 0px 0px 3px;
+}
+
+/* style the icons i */
+
+.icons i{
+	margin-top: 11px;
+}
+
+/* style the input field */
+.input-container .input-field{
+	  width: 100%;
+      margin: auto;
+      outline: none;
+	  background: rgb(255, 255, 255);
+      margin: 0px;
+      padding: 9px 10px;
+}
+
+.popup{
+	position: relative;
+}
+
+/* style the login page */
+
+.login-page{
+	width: 400px;
+	background: #FFFFFF;
+	top: 0px;
+	left: 0px;
+	right: 0px;
+	bottom: 0px;
+	margin: 20px auto;
+	border-radius: 6px;
+	box-shadow: 0 3px 8px rgba(0, 0, 0, .3);
+}
+.width{
+	width: 90%;
+	margin: auto;
+	padding: 10px;
+}
+/* style the fa login */
+.fa-login p{
+	width: 166px;
+	margin: auto;
+    padding: 20px;
+    font-size: 20px;
+}
+.info{
+	width: 94%;
+	padding: 10px;
+	background-color: rgb(255, 249, 215);
+    border: 1px solid rgb(226, 200, 34);
+	text-align: center;
+	font-size: 13px;
+	margin-bottom:4px;
+}
+.login-page .inpu-log input{
+	width: 100%;
+	border-radius: 4px;
+}
+.login-page .inpu-log input{
+	padding: 13px;
+	font-size: 18px;
+	color: #90949c;
+	border-width: .0px solid gray;
+	margin: 4px 0px;
+}
+.input-login:focus{
+	border: 2px solid red;
+}
+
+/* tyle the forget */
+
+.forget{
+	width: 285px;
+	margin: auto;
+	padding-bottom: 20px;
+	padding-top: 11px;
+}
+.forget a{
+	color: #1877f2;
+	font-size: 16px;
+	text-decoration: none;
+	margin: 8px 3px;
+}
+.forget a:hover{
+	text-decoration: underline;
+}
+
+/* style the login */
+
+.login a{
+	color: #fff;
+	background: #166FE5;
+	display: block;
+	text-align: center;
+	padding: 12px;
+	margin: 5px 0px 10px 0px;
+	text-decoration: none;
+	font-size: 22px;
+	border-radius: 4px;
+}
+.login a:hover{
+	background: #365899;
+}
+.signup-areea{
+	width: 65%;
+	margin: 10px auto;
+	
+}
+
+
+/* style the back-ground */
+
+.back-ground{
+	background: #FFFFFF;
+}
+
+/* style the footer-area */
+
+.footer-area{
+	width: 990px;
+	margin: auto;
+}
+.footer-area ul{
+	list-style: none;
+	margin-top: 70px;
+}
+.footer-area ul li{
+	display: inline-block;
+	padding-top: 25px;
+}
+.footer-area ul li a{
+	text-decoration: none;
+	margin: 3px;
+	font-size: 13px;
+	color: #8a8d91;
+}
+.footer-area ul li a:hover{
+	text-decoration: underline;
+}
+.footer-area button{
+	width: 30px;
+	height: 25px;
+	font-weight: bold;
+}
+
+/* style the contntCurve */
+
+.contentCurve{
+	width: 950px;
+	margin: auto;
+	border-bottom: 1px solid #dddfe2;
+	font-size: 1px;
+	height: 2px;
+	margin-bottom: 3px;
+}
+
+/* style the footer2-area */
+
+.footer2-area{
+	width: 990px;
+	margin: auto;
+}
+.footer2-area ul{
+	list-style: none;
+	padding-bottom: 2px;
+}
+.footer2-area ul li{
+	display: inline-block;
+}
+.footer2-area ul li a{
+	text-decoration: none;
+	margin: 6px;
+	font-size: 13px;
+	color: #8a8d91;
+	line-height: 1.6;
+}
+.footer2-area ul li a:hover{
+	text-decoration: underline;
+}
+.footer2-area button{
+	width: 30px;
+	height: 25px;
+	font-weight: bold;
+}
+.footer2-area p{
+	font-size: 13px;
+	margin-left: 43px;
+	color: #8a8d91;
+	padding-bottom: 18px;
+}
